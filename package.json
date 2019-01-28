@@ -1,5 +1,5 @@
 {
-  "name": "athena-express",
+  "name": "athena-express-csvtojson",
   "version": "3.2.5",
   "description": "Athena-Express makes it easier to execute SQL queries on Amazon Athena by consolidating & astracting several methods in the AWS SDK",
   "main": "./lib/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghdna/athena-express.git"
+    "url": "git+https://github.com/dmngr/athena-express.git"
   },
   "keywords": [
     "aws",
@@ -22,7 +22,7 @@
     "sql",
     "database"
   ],
-  "author": "Gary Arora (https://twitter.com/AroraGary)",
+  "author": "Gary Arora (https://twitter.com/AroraGary) - Anestis",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ghdna/athena-express/issues"
