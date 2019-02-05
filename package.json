@@ -1,6 +1,6 @@
 {
   "name": "@deliverymanager/athena-express",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Athena-Express makes it easier to execute SQL queries on Amazon Athena by consolidating & astracting several methods in the AWS SDK",
   "main": "./lib/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "aws-sdk": "^2.291.0"
   },
   "dependencies": {
+    "@deliverymanager/util": "3.1.6",
     "csvtojson": "2.0.8"
   }
 }
