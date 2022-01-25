@@ -1,22 +1,19 @@
 {
   "name": "@deliverymanager/athena-express",
-  "version": "4.3.13",
+  "version": "4.3.15",
   "description": "Athena-Express makes it easier to execute SQL queries on Amazon Athena by consolidating & astracting several methods in the AWS SDK",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha",
-    "start": "npm test"
+    "deploy": "increase-version --package-json=./package.json && npm publish;"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmngr/athena-express.git"
   },
   "license": "MIT",
-  "devDependencies": {
-    "aws-sdk": "^2.291.0"
-  },
   "dependencies": {
-    "@deliverymanager/util": "3.1.6",
-    "csvtojson": "2.0.8"
+    "@deliverymanager/s3_fns": "1.0.3",
+    "bluebird": "3.7.2",
+    "csvtojson": "2.0.10"
   }
 }
