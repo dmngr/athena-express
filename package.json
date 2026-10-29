@@ -1,6 +1,9 @@
 {
   "name": "@deliverymanager/athena-express",
   "version": "4.3.15",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "description": "Athena-Express makes it easier to execute SQL queries on Amazon Athena by consolidating & astracting several methods in the AWS SDK",
   "main": "./lib/index.js",
   "scripts": {
